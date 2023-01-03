@@ -1,0 +1,60 @@
+.min-h-screen{
+    min-height: 100vh;
+}
+.bg-red{
+    background-color: red;
+}
+.mx-auto{
+    margin-left: auto;
+    margin-right: auto;
+}
+.flex{
+    display: flex;
+}
+.items-center{
+    align-items: center;
+
+}
+.justify-center{
+    justify-content: center;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.font-bold{
+    font-weight: bold;
+}
+.flex-col{
+    flex-direction: column;
+}
+.my-1{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.my-2{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.px-2{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.text-blue{
+    color: rgb(108, 108, 191);
+}
+
+.btn{
+    cursor: pointer;
+    padding: 8px 12px;
+    border: 2px solid rgb(49, 49, 72);
+    border-radius: 6px;
+    color: beige;
+    background-color: rgb(108, 108, 191);
+}
+.text-center{
+    text-align: center;
+}
+.highlited{
+    font-size: 1.2rem;
+    font-weight: bolder;
+}

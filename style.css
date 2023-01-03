@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.html{
+    scroll-behavior: smooth;
+}
+.container{
+    max-width: 80vw;
+    font-family: 'Nunito', sans-serif;
+}
+
+.navbar{
+    font-family: 'Nunito', sans-serif;
+    display: flex;
+    height: 70px;
+}
+.navbar li{
+    list-style: none;
+    margin: 0 12px;
+}
+.section1 h3{
+    font-size: 2rem;
+    color: rgb(108, 108, 191);
+}
+.section2 h1{
+    font-size: 2.5rem;
+}
+.section2 p{
+    padding: 0 8vw;
+    text-align: center;
+}
+.section2{
+    padding: 75px;
+}
+.topleft{
+    width: 50%;
+    padding: 12px 0;
+}
+.topright{
+    width: 50%;
+    padding: 12px 0;
+
+}
+.image{
+    margin: auto;
+    width: 70%;
+}
+.logo{
+    font-size: 1.5rem;
+}
+.dumbbellimg{
+    width: 180px;
+}
+.box{
+    padding: 8px 0;
+    margin: 12px 22px;
+    min-width: 20vw;
+    border: 2px solid rgb(70, 70, 90);
+    border-radius: 5px;
+    text-align: center;
+}
+.box h2{
+    font-size: 2rem;
+    padding: 15px 0;
+    color: rgb(108, 108, 191);
+}
+.box ul{
+    list-style: none;
+}
+.box ul li{
+    margin: 12px 2px;
+}
+.plantable{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section3 h1{
+    padding-top: 50px;
+    font-size: 2.3rem;
+}
+.section3 table{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 140px;
+    border-collapse: collapse;
+}
+.section3 table th{
+    width: 23vw;
+    border-bottom: 2px solid black;
+    padding: 15px 0;
+
+}
+.section3 table td{
+    border-bottom: 2px solid black;
+
+}
+.section2{
+    padding-left: 65px;
+    padding-right: 65px;
+}
+footer{
+    padding: 23px;
+    color: rgb(108, 108, 191);
+
+    text-align: center;
+}
+.burger{
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 15px;
+
+}
+.line{
+    width: 33px;
+    background-color: black;
+    height: 4px;
+    margin: 3px 3px;
+}
+
+@media only screen and (max-width: 850px){
+    .burger{
+        display: block;
+    }
+    .h-nav{
+        height: 50px;
+    }
+    .v-class{
+        opacity: 0;
+    }
+    .nav_list{
+        flex-direction: column;
+    } 
+    .navbar{
+        flex-direction: column;
+        height: 140px;
+        transition: all 0.4s ease-out;
+    }  
+    .logo{
+        justify-content: center;
+    }
+    .topright{
+        display: none;
+    }
+    .topleft{
+        width: 100%;
+    }
+    .dumbbellimg{
+        width: 120px;
+    }
+    .section2{
+        padding: 25px;
+    }
+    .section2 p{
+        padding: 0 0;
+    }
+    .boxes{
+        flex-direction: column;
+    }
+    .container{
+        max-width: 90vw;
+    }
+}
